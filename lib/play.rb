@@ -37,13 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  count = 0
-  until count == 9
-<<<<<<< HEAD
-=======
-    puts count
->>>>>>> 8ca3fe3231bbe793b89a4f9ee06aa73698f440a5
+  9.times do
     turn(board)
-    count+=1
   end
 end
